@@ -9,6 +9,8 @@ from jiraauth import jclient as jira
 Synopsis: Add label(s) to issue(s)
 Example: addlabel.py EUCA-1234,EUCA-2345 Support,AWS
 
+//comment for Jira
+
 issues = sys.argv[1].split(',')
 labels = sys.argv[2].split(',')
 
